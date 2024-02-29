@@ -1,0 +1,9 @@
+# Ignore a chave SSH
+id_rsa
+id_rsa.pub
+
+# Ignore quaisquer arquivos que terminem com .pem (se você usar chaves em formato PEM)
+*.pem
+
+# Ignore o diretório .ssh (se você armazenar suas chaves lá)
+.ssh/
